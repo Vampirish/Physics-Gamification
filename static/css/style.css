@@ -1,0 +1,20 @@
+.text_style {
+    margin-left: 60px;
+}
+
+.text_style2 {
+    margin-left: 100px;
+}
+
+.td_style {
+	background: silver;
+}
+
+.navbar-inverse {
+background-color: #000000;
+border-color: #FFFFFF;
+}
+
+.div_right {
+    text-align: right;
+}

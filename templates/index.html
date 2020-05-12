@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<!--   	<nav class="navbar navbar-dark bg-dark">  -->
+	<nav class="navbar-inverse">
+<!--		<span class="navbar-brand mb-0 h1">Панель доступа</span>  -->
+		<div class="div_right">
+			<a class="navbar-brand" href="registration">Регистрация</a>
+			<a class="navbar-brand" href="#">Вход</a>
+		</div>
+	</nav>
+	<center>
+		<img src="{{url_for('static', filename='img/welcome_page.png')}}" alt="">
+	</center>
+{% endblock %}
